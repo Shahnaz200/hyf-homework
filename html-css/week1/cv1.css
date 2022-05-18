@@ -1,0 +1,333 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+
+
+#part1 {
+ position: absolute;
+ top: 0px;
+ width: 20rem;
+ left: 0rem;
+ height: 68rem;
+ background-color: rgb(169, 154, 179);
+
+}
+
+/* vertical line*/
+.vl {
+ border-right: 3px solid rgb(62, 72, 68);
+ height: 68rem;
+ margin-right: 0.5rem;
+}
+
+/*img*/
+#photo {
+ position: absolute;
+ margin-top: 4rem;
+ padding-left: 7rem;
+ width: 10rem;
+ height: 10rem;
+}
+
+
+.round {
+ border-radius: 50%;
+ padding: 1px;
+ border: 4px solid transparent;
+ background: rgb(62, 72, 68);
+}
+
+
+/*my skills*/
+#skills {
+ position: absolute;
+ margin-top: 20rem;
+
+ margin-left: 1.8rem;
+ width: 17rem;
+ height: 40rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ padding: 0.8rem;
+}
+
+h2 {
+ font-size: 1.4rem;
+
+ color: rgb(62, 72, 68);
+ text-transform: uppercase;
+}
+
+h3 {
+ font-size: 1rem;
+
+ color: black;
+}
+
+p {
+ font-size: 0.9rem;
+
+ color: black
+}
+
+/*progress persian*/
+.progress1 {
+ width: 8rem;
+ height: 0.5rem;
+ background: white;
+ overflow: hidden;
+ margin-left: 7rem;
+ margin-top: -1.5rem;
+}
+
+
+.progress__fillPersian {
+ width: 100%;
+ height: 100%;
+ background-color: rgb(62, 72, 68);
+}
+
+/*progress english*/
+.progress2 {
+ width: 8rem;
+ height: 0.5rem;
+ background: white;
+ overflow: hidden;
+ margin-left: 7rem;
+ margin-top: -1.5rem;
+}
+
+.progress__fillEnglish {
+ width: 80%;
+ height: 100%;
+ background-color: rgb(62, 72, 68);
+}
+
+/*progress danish*/
+.progress3 {
+ width: 8rem;
+ height: 0.5rem;
+ background: white;
+ overflow: hidden;
+ margin-left: 7rem;
+ margin-top: -1.5rem;
+}
+
+.progress__fillDanish {
+ width: 25%;
+ height: 100%;
+ background-color: rgb(62, 72, 68);
+}
+
+/*progress excel*/
+.progress4 {
+ width: 8rem;
+ height: 0.5rem;
+ background: white;
+ overflow: hidden;
+ margin-left: 7rem;
+ margin-top: -1.5rem;
+}
+
+.progress__fillExcel {
+ width: 40%;
+ height: 100%;
+ background-color: rgb(62, 72, 68);
+}
+
+
+/*progress word*/
+.progress5 {
+ width: 8rem;
+ height: 0.5rem;
+ background: white;
+ overflow: hidden;
+ margin-left: 7rem;
+ margin-top: -1.5rem;
+}
+
+.progress__fillWord {
+ width: 80%;
+ height: 100%;
+ background-color: rgb(62, 72, 68);
+}
+
+/*progress VScode*/
+.progress6 {
+ width: 8rem;
+ height: 0.5rem;
+ background: white;
+ overflow: hidden;
+ margin-left: 7rem;
+ margin-top: -1.5rem;
+}
+
+.progress__fillVScode {
+ width: 90%;
+ height: 100%;
+ background-color: rgb(62, 72, 68);
+}
+
+
+
+/*cv descibtion*/
+header {
+ color: black;
+ margin-top: -15rem;
+ padding-left: 2rem;
+ width: 40rem;
+ top: 0;
+ position: absolute;
+ left: 20rem;
+ height: 15rem;
+ padding: 0.1rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*experience css*/
+#ex {
+ position: absolute;
+ left: 20rem;
+ top: 15rem;
+ width: 5rem;
+ height: 5rem;
+
+
+}
+
+.h {
+ color: gray;
+ margin-top: -14rem;
+ padding-left: 2rem;
+ top: -10rem;
+}
+
+
+
+#exper {
+ position: absolute;
+ padding-left: 2rem;
+ left: 20rem;
+ margin-top: -33rem;
+ width: 28rem;
+ height: 8rem;
+ left: 20rem;
+
+}
+
+
+
+
+
+
+.exper>div {
+ padding: 0px;
+
+ padding-top: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.exper>div :nth-child(odd) {
+ font-size: 14px;
+ color: gray;
+ text-align: center;
+}
+
+.exper>div :nth-child(even) {
+ margin: 1rem;
+ font-size: 14px;
+ color: black;
+ text-align: center;
+
+}
+
+.exper {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 4rem 4rem;
+ gap: 0rem;
+ padding-top: center;
+}
+
+
+/*education css*/
+#ed {
+ position: absolute;
+ left: 20rem;
+ top: 25rem;
+ width: 5rem;
+ height: 5rem;
+ margin-top: -10rem;
+
+}
+
+
+#educ {
+ position: absolute;
+ padding-left: 2rem;
+ left: 20rem;
+ margin-top: -19rem;
+ width: 28rem;
+ height: 8rem;
+ left: 20rem;
+
+}
+
+
+
+
+
+.educ>div {
+ padding: 0px;
+
+ padding-top: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.educ>div :nth-child(odd) {
+ font-size: 14px;
+ color: gray;
+ text-align: center;
+}
+
+.educ>div :nth-child(even) {
+ margin: 1rem;
+ font-size: 14px;
+ color: black;
+ text-align: center;
+
+}
+
+.educ {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 4rem 4rem;
+ gap: 0rem;
+ padding-top: center;
+}
+
+#footer {
+ position: absolute;
+ top: 47em;
+ left: -1.9rem;
+ height: 1rem;
+ width: 61rem;
+ background-color: gray;
+}
+
+a {
+ color: black;
+ text-decoration: none;
+}
