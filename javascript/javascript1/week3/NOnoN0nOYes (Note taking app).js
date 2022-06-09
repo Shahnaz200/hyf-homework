@@ -13,8 +13,8 @@ saveNote("Check my homework", 5);
 saveNote("Go to bathroom", 6);
 saveNote("Keep calm and drink caffe", 7);
 saveNote("My mom is stupid from Aria", 8);
-saveNote("Cook my dog that doesn't exist", 7);
-saveNote("Play on my moms belly", 7);
+saveNote("Cook my dog that doesn't exist", 9);
+saveNote("Play on my moms belly", 10);
 
 
 console.log(notes); // [{content: 'Pick up groceries', id: 1}, {content: 'Do laundry', id: 2}]
@@ -45,3 +45,12 @@ function logOutNotesFormatted() {
 }
 
 logOutNotesFormatted(); 
+
+//make date feature
+function newDate(){
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth()+1;
+var year = date.getFullYear();
+console.log(date  + day +"/" + month + "/" +year)}
+newDate()
