@@ -2,7 +2,7 @@
 const class07Students = [];
 function addStudentToClass(studentName) {
   if (class07Students.includes(studentName)) {
-    console.log(`Student ${studentName} its already`);
+return (`Student ${studentName} its already`);
   } else {
     if (
       (studentName !== '' && class07Students.length <= 5) ||
@@ -10,7 +10,7 @@ function addStudentToClass(studentName) {
     ) {
       class07Students.push(studentName);
     } else if (class07Students.length >= 6) {
-      console.log("cannot add more to this class it's full");
+      return ("cannot add more to this class it's full");
     }
   }
 }
