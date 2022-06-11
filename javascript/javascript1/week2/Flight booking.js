@@ -1,19 +1,10 @@
-/*var firstname = ["Benjamin" , "Aria" , "Shahnaz"];
-var surname = ["Hughes" , "Chehrazi" , "Vatankhah"];
 
-let Fullname1 = (firstname[1], surname[0])
-//let Fullname2 = (surname[1])
-
-console.log (Fullname1);
- 
-//for (var i=0 ;i<=3 ;i++);
-*/
 
 
 
 function getFullname(firstname, surname,) {
  
- return firstname + " " +surname;
+ return `${firstname} ${surname}`;
 
 }
 
@@ -23,10 +14,10 @@ console.log(x)
 
 
 
-var Fullname1 = getFullname("Shahnaz", "Vatankhah"); 
-var Fullname2 = getFullname("Aria", "Chehrazi"); 
-console.log(Fullname1)
-console.log(Fullname2)
+var fullname1 = getFullname("Shahnaz", "Vatankhah"); 
+var fullname2 = getFullname("Aria", "Chehrazi"); 
+console.log(fullname1)
+console.log(fullname2)
 
 //formal fullname
 var useFormalName = true;
@@ -51,7 +42,7 @@ console.log(x)
 
 //women part
 var womenName = true;
-function getFullname2(firstname, surname, useFormalName, womenName) {
+function getFullnameFormalGender(firstname, surname, useFormalName, womenName) {
  
  if(womenName) {
   return "Mrs" + " " +firstname + " " +surname;
@@ -64,10 +55,10 @@ function getFullname2(firstname, surname, useFormalName, womenName) {
  }
 }
 
-var x = getFullname2("Shahnaz", "Vatankhah",true,true)
+var x = getFullnameFormalGender("Shahnaz", "Vatankhah","true","true")
 console.log(x)
 
-var x = getFullname2("Aria", "Chehrazi",false,false)
+var x = getFullnameFormalGender("Aria", "Chehrazi","false","false")
 console.log(x)
 
 
