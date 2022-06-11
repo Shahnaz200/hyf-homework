@@ -1,10 +1,9 @@
-const daysOfWeek = ["Sunday", "Monday", `Tuesday`, "Wednesday", "Thursday", "Friday", "Saturday"]
+const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 function getEventWeekday(eventDayFromToday) {
  const day = new Date();
- var today = day.getDay();
-var event = [(today + eventDayFromToday)%daysOfWeek.length];
+ let today = day.getDay();
+let event = (today + eventDayFromToday)%daysOfWeek.length;
 
-return daysOfWeek[event];
-
+return `${daysOfWeek} ${event}`;
 }
 console.log(getEventWeekday(7))
