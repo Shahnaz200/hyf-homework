@@ -20,6 +20,7 @@ function addCandy(candyType, weight) {
 
 
 addCandy("Sweet" , 20)
+addCandy("sweet" , 20)
 addCandy("Chocolate", 50)
 addCandy("Toffee", 120)
 addCandy("ChewingGum", 40)
@@ -30,8 +31,8 @@ addCandy("ChewingGum", 70)
 
 console.log(buyCandyPrices);
 
-var amountToSpend = Math.random() * 100
-var sum = buyCandyPrices[0]
+const amountToSpend = Math.random() * 100
+const sum = buyCandyPrices[0]
 
 
 console.log(amountToSpend);
