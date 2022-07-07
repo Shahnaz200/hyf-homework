@@ -82,4 +82,3 @@ function jokeCreator(shouldTellFunnyJoke) {
 }
 
 jokeCreator(false);
-
