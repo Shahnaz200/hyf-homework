@@ -1,0 +1,22 @@
+
+button{
+ background-color: #4CAF50; /* Green */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ box-shadow: 3px 3px 4px 2px #90f77d;
+ }
+
+ button:focus{
+  background-color:red;
+  box-shadow: 3px 3px 4px 2px #ea7e7e;
+}
+
+#buttons{
+ margin-left: 350px;
+ margin-top: 350px;
+}
