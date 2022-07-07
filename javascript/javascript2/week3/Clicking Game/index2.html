@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style2.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-wrapper">
+    <marquee class="game-heading" direction="left" >Fastest Presser Dont Put Decimal Numbers Or It Breakes The Game Thanks 🙂</marquee>
+  
+     
+      <input type="number" id="inputTime" min="1" max="9" placeholder="Set Seconds" />
+      <br>
+      <button id="startBtn">Start Game!</button>
+
+      <h3 class="count-timer">
+          Timer: <span id="timer">0:00</span>
+      </h3>
+
+      <div class="container">
+        
+          <div id="right">
+              Press S
+              <div class="container-right">
+                  Score: <span id="scoreS">0</span><br>
+                  <span id="wonSkey"></span>
+                  <canvas id="my-canvas-s" width="30px" height="30px"></canvas>
+
+              </div>
+          </div>
+          <div id="left">
+              Press L
+              <div class="container-left">
+                  Score: <span id="scoreL">0</span><br>
+                  <span id="wonLkey"></span>
+                  <canvas id="my-canvas-l" width="30px" height="30px"></canvas>
+
+              </div>
+              <button id="ShowResult" class="ShowResult" data-modal-target="#modal">Show Result</button>
+              <div class="modal" id="modal">
+                <div class="modal-body">
+                 <p id="result"></p>
+                </div>
+              </div>
+              <div id="overlay"></div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/confetti-js/dist/index.min.js"></script>
+<script src="Clicking Game Thing.js"></script>
+</body>
+</html>
