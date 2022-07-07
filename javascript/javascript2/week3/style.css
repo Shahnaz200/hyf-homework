@@ -1,6 +1,6 @@
 
 button{
- background-color: #4CAF50; /* Green */
+ background-color: darkgreen;
  border: none;
  color: white;
  padding: 15px 32px;
@@ -12,7 +12,7 @@ button{
  }
 
  button:focus{
-  background-color:red;
+  background-color:darkred;
   box-shadow: 3px 3px 4px 2px #ea7e7e;
 }
 
