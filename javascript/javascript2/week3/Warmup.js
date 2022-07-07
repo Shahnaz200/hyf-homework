@@ -23,6 +23,7 @@ btnMessage.addEventListener("click", () =>
 consoleLogTime(5, "Called after 5 seconds")
 );
 
+//planet exercise
 
 const earth = () => console.log("Earth");
 const saturn = () => console.log("Saturn");
@@ -32,6 +33,7 @@ const planetLogFunction = (functionName) => functionName();
 planetLogFunction(earth);
 planetLogFunction(saturn);
 
+//loction exercise
 const myDiv = document.getElementById("div")
 const btnLocation = document.createElement('button')
 btnLocation.innerHTML = "Log Your Location";
@@ -47,6 +49,7 @@ btnLocation.addEventListener('click', function () {
     })
 })
 
+//runAfterDelay exercise
 function runAfterDelay(delay, callback) {
  const time = delay * 1000
  return setTimeout(callback, time);
@@ -56,6 +59,7 @@ runAfterDelay(4, function () {
  console.log('should be logged after 4 second')
 });
 
+//double click exercise
 const dblClick = document.querySelector('#myButton');
 
 dblClick.addEventListener('dblclick', function (e) {
@@ -63,11 +67,10 @@ dblClick.addEventListener('dblclick', function (e) {
 });
 
 
+//joke exercise
 function logFunnyJoke() {
     return console.log("Funny joke");
 }
-
-
 
 
 function logBadJoke() {
