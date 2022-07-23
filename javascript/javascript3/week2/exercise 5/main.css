@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #F9FBFD;
+  background: linear-gradient(90deg, rgba(255,228,196,1) 0%, rgba(255,178,86,1) 100%);
 }
 
 * {
@@ -25,13 +25,13 @@ ul.marks li {
   border-radius: 100%;
 }
 ul.marks li:nth-child(1) {
-  background-color: red;
+  background-color: rgb(193, 18, 64);
 }
 ul.marks li:nth-child(2) {
-  background-color: blue;
+  background-color: rgb(38, 105, 205);
 }
 ul.marks li:nth-child(3) {
-  background-color: green;
+  background-color: rgb(30, 174, 90);
 }
 ul.targets li {
   border-radius: 100%;
@@ -101,12 +101,12 @@ span {
   }
   
 span.shown {
-    display: block;
-    animation-duration: 0.75s;
+    display: inline-block;
+    animation-duration: 2s;
     animation-name: bounceIn;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 62%;
     transform: translate(-50%, -50%);
-    font-size: 5rem;
+    font-size: 4rem;
 }
