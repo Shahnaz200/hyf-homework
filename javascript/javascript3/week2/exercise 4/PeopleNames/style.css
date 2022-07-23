@@ -1,0 +1,31 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ list-style: none;
+}
+
+body {
+ background: #8acae8;
+ margin: 24px;
+ color: #32a0d3;
+ text-align: center;
+ font-size: 50px;
+}
+
+.backBtn {
+ background-color: #2d406b;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+section {
+ color: rgb(255, 255, 255);
+ font-size:40px;
+}
