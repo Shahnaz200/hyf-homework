@@ -1,0 +1,50 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background: #8acae8;
+ margin: 24px;
+ color: beige;
+ text-align: center;
+}
+
+section.timer {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+section.location {
+ width: 100%;
+ display: block;
+ align-items: center;
+ justify-content: center;
+}
+
+h1 {
+ font-family: "Montserrat";
+ font-size: 90px;
+}
+
+p {
+ font-family: "Montserrat";
+ font-size: 50px;
+ color: bisque;
+}
+
+button {
+ background-color: #3b9cd7;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+}
