@@ -1,0 +1,32 @@
+img {
+ width: 250px;
+ height: 250px;
+}
+
+body {
+ text-align: center;
+ background: #8acae8;
+ margin: 24px;
+ color: #32a0d3;
+ text-align: center;
+ font-size: 50px;
+ }
+
+
+.nextBtn {
+ background-color: #2d406b;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+h3 {
+ color: rgb(255, 255, 255);
+ font-size:40px;
+}
+
