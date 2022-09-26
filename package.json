@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "canvas-confetti": "^1.5.1"
-  }
+    "canvas-confetti": "^1.5.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "hyf-homework",
+  "description": "## Get git ready to work on homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahnaz200/hyf-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahnaz200/hyf-homework/issues"
+  },
+  "homepage": "https://github.com/Shahnaz200/hyf-homework#readme"
 }
