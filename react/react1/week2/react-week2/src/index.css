@@ -1,0 +1,60 @@
+body{
+  background: linear-gradient(90deg, rgba(255,193,85,1) 0%, rgba(166,254,136,1) 100%);
+  text-align: center;
+  
+}
+
+input[type=checkbox]:checked + span {
+  color:rgb(255, 0, 0);
+  text-decoration: line-through;
+} 
+
+
+[type="checkbox"]{
+  width: 25px;
+}
+
+
+.todos{
+  list-style: none;
+  border-radius: 10px;
+  padding-inline-start: 10px;
+  width: 400px;
+  color: rgb(155, 152, 152);
+  background-color: rgb(255, 255, 255);
+}
+
+
+.TodoTitle{
+  font-size: 33px;
+  color: white;
+}
+
+.Timer{
+  font-size: 22px;
+  color: white;
+}
+
+.addTodoButton{
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.addTodoButton:hover{
+  cursor: pointer;
+  background-color: rgb(224, 214, 214);
+  transition: all 0.8s
+}
+
+.deleteButton{
+  background:transparent;
+  width: 30px;
+  height: 45px;
+  border-radius: 5px;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
