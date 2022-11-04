@@ -1,78 +1,58 @@
 //housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
 
-/*
-width = w
-height = h
-deep = d
-gardensize = g
-*/
-
-
 //Peter's calculation
-var w = 8
-var h = 10
-var d = 10
-var g = 100
+const width = 8;
+const height = 10;
+const deep = 10;
+const gardensize = 100;
 
+let houseVolumePeter = width * height * deep;
 
+console.log(houseVolumePeter);
 
+let calculatedHousePrice = houseVolumePeter * 2.5 * 1000 + gardensize * 300;
 
-let houseVolumePeter = w * h * d
+console.log(calculatedHousePrice);
 
-console.log(houseVolumePeter)
+const realHousePrice = 2500000;
 
-let  calculatedHousePrice = houseVolumePeter * 2.5 * 1000 + g * 300;
+if (realHousePrice > calculatedHousePrice) {
+  console.log(realHousePrice > calculatedHousePrice);
+  console.log(realHousePrice - calculatedHousePrice);
+} else {
+  calculatedHousePrice - realHousePrice;
+}
 
-console.log(calculatedHousePrice)
-
-
-const  realHousePrice = 2500000
-
- if (realHousePrice > calculatedHousePrice ) 
- console.log (realHousePrice > calculatedHousePrice )
- console.log(realHousePrice - calculatedHousePrice )
-
-
-
- console.log("Peter paid 470000 less then original price")
-
-
-
-
+console.log(
+  `Peter paid ${realHousePrice - calculatedHousePrice} less then original price`
+);
 
 //Julia
 
-w = 5
-h = 11
-d = 8
-g = 70
+const width2 = 5;
+const height2 = 11;
+const deep2 = 8;
+const gardensize2 = 70;
 
+let houseVolumeJulia = width2 * height2 * deep2;
 
-let houseVolumeJulia = w * h * d
+console.log(houseVolumeJulia);
 
-console.log(houseVolumeJulia)
+calculatedHousePrice = houseVolumeJulia * 2.5 * 1000 + gardensize2 * 300;
 
-calculatedHousePrice = houseVolumeJulia * 2.5 * 1000 + g * 300;
+console.log(calculatedHousePrice);
 
-console.log(calculatedHousePrice)
+const realHousePriceJulia = 1000000;
 
+if (realHousePriceJulia > calculatedHousePrice) {
+  console.log(realHousePriceJulia > calculatedHousePrice);
+} else {
+  calculatedHousePrice - realHousePriceJulia;
+}
 
-const realHousePriceJulia = 1000000
-
-
-
-
-if (realHousePrice > calculatedHousePrice ) 
- console.log (realHousePriceJulia > calculatedHousePrice ) 
-
- else ( calculatedHousePrice - realHousePriceJulia)
-
- console.log (calculatedHousePrice - realHousePriceJulia)
- console.log("Julia paid 121000 more then original price")
- 
-
-
-
-
-
-
+console.log(calculatedHousePrice - realHousePriceJulia);
+console.log(
+  `Julia paid ${
+    calculatedHousePrice - realHousePriceJulia
+  } more then original price`
+);
